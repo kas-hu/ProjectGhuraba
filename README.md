@@ -25,3 +25,8 @@ Please adhere to this project's `code of conduct`.
 - Live previews
 - Fullscreen mode
 - Cross platform
+
+##Local Development
+1. Open the code
+2. check targets of website
+3. edit as necessary
