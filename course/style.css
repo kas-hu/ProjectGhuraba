@@ -242,12 +242,15 @@ header .menu {
 
 li a {text-decoration : none; color : #2d2f31;}
 
+/* course drop down below */
 
 nav {
   width : 300px; 
   background: #d9d9d9;
   margin : 40px auto; 
 }
+
+/* professional courses */
 
 #dropdown {
   padding : 30px;
@@ -262,7 +265,7 @@ nav {
 #dropdown::after {
   float: right;
   right: 10%;
-  content: "+";
+  content: ">";
 }
 
 .slide {
@@ -279,6 +282,70 @@ nav {
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
 #touch:checked + .slide {height: 300px;} 
+
+/*Muslim courses */
+#dropdown-1 {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+#dropdown-1::after {
+  float: right;
+  right: 10%;
+  content: ">";
+}
+
+.slide-1 {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide-1 li {padding : 30px;}
+
+#touch-1 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch-1:checked + .slide-1 {height: 300px;} 
+
+/* skill courses */
+#dropdown-2 {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+#dropdown-2::after {
+  float: right;
+  right: 10%;
+  content: ">";
+}
+
+.slide-2 {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide-2 li {padding : 30px;}
+
+#touch-2 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch-2:checked + .slide-2 {height: 300px;}
 
 footer {
   padding: 20px;
