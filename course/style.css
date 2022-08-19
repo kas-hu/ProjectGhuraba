@@ -49,6 +49,9 @@ button {
   border: none;
   cursor: pointer;
 }
+.img {
+  height: 500px;
+}
 img {
   width: 100%;
 }
