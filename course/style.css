@@ -241,7 +241,8 @@ header .menu {
   align-items: center;
 }
 .logo_content .logo i{
-  font-size: 100px;
+  font-size: 20px;
+  margin-right: 5px;
 }
 /* Hero Content Ends ⬆ */
 
