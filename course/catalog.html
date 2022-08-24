@@ -15,6 +15,10 @@
     
     <link rel="stylesheet" href="style.css" />
 
+    <!-- emoji-css-afeld.me link-->
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- FontAwesome link start ⬇ -->
     <script
       src="https://kit.fontawesome.com/f8a9bfca8d.js"
@@ -43,14 +47,17 @@
       <header>
 
         <!-- nav logo ⬇ -->
-        <div class="logo"><span>S</span>tudy & <span>I</span>mprove</div>
+        <div class="logo">
+          <div class="logo-title"><span>G</span>huraba</div>
+        </div>
 
         <!-- nav links and canel btn ⬇ -->
         <nav>
 
           <!-- nav menu cancel toggle btn ⬇ -->
           <div class="nav-top">
-          <div class="logo"><span>S</span>tudy & <span>I</span>mprove</div>
+          <div class="logo"><span>S</span>tudy & <span>I</span>mprove
+          </div>
           <div class="menu-cancel">
             <button class="cancel">&times;</button>
           </div>
@@ -58,11 +65,19 @@
             
           <!-- links ⬇ -->
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Timetable</a></li>
-            <li><a href="">Newsletter</a></li>
-            <li><a href="">Resources</a></li>
-            <li><a href="">Subscribe</a></li>
+            <li>
+              <a href="">
+                <i class='bx bxs-home' ></i>
+              Home</a></li>
+              <a href="">
+                <i class='bx bx-news' ></i>
+              Newsletter</a></li>
+            <li><a href="">
+              <i class='bx bx-book-bookmark'></i>
+              Resources</a></li>
+            <li><a href="">
+              <i class='bx bxs-user'></i> 
+              Account</a></li>
           </ul>
 
         </nav>
@@ -82,14 +97,71 @@
 
       <!-- Hero Content Start ⬇ -->
       <div class="content">
+        <div class="sidebar">
+          <div class="logo_content">
+            <div class="logo">
+              <i class='bx bxs-grid'></i>
+              <div class="logo_name">CodingLab</div>
+            </div>
+            <i class='bx bx-menu-alt-left' id="btn"></i>
+          </div>
+          <ul class="nav_list">
+            <li>
+                <i class='bx bx-search' ></i>
+                <input type="text" placeholder="Search...">
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">Aqeedah</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">Akhlaq</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">Fiqh</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">How to study</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">improving your grades</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name">praying</span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="links_name"></span>
+              </a>
+              <!-- <span class="tooltip">Dashboard</span> -->
+            </li>
+          </ul>
+        </div>
         
         <!-- home hero Quote ⬇ -->
-        <h1>
+        <h1 id="catalog-title">
             <span>The Catalog</span>
         </h1>
-        <p>
-            
-        </p>
+        
+
 
            <!-- home hero image ⬇ -->
         <div class="img"><img src="images/test6.avif" alt="" /></div>
@@ -105,7 +177,7 @@
 
     <section class="the-three">
       <header>
-        <h1>Paths</h1>
+        <h1 id="second-catalog-title">Explore Paths</h1>
       </header>
         
     </section>
