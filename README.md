@@ -8,8 +8,8 @@ The goal is to be the biggest academy for making Muslims back in to work and sma
 ## Authors
 
 - [@kas-hu](https://www.github.com/kas-hu)
-- [@]
-- [@]
+- [@abc]
+- [@omar]
 ## Contributing
 
 Contributions are always welcome!
