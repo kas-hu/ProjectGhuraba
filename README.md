@@ -7,7 +7,7 @@ The goal is to be the biggest academy for making Muslims back in to work and sma
 
 ## Authors
 
-- [@logicdictates](https://www.github.com/kas-hu)
+- [@kas-hu](https://www.github.com/kas-hu)
 - [@]
 - [@]
 ## Contributing
