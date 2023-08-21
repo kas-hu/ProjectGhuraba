@@ -1,7 +1,7 @@
 # StudyImprove
 
 An e-commerce style project is the goal where people can sign up to the academy. 
-The goal is to be the biggest academy for making Muslims back in to work and smart again inshaAllah.
+The goal is to be the biggest academy for making Muslims back in to work and smart and mentally good to be the leading people of the world again inshaAllah.
 
 
 
