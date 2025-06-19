@@ -25,3 +25,4 @@ Please adhere to this project's `code of conduct`.
 - Live previews
 - Fullscreen mode
 - Cross platform
+- Multi-lingual support
