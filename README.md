@@ -8,7 +8,7 @@ The goal is to educate Muslims back in to the best minds of the world like the g
 ## Authors
 
 - [@kas-hu](https://www.github.com/kas-hu)
-- [@usafdev]
+- [@usafdev] (https://github.com/usafdev)
 - [@abc]
 ## Contributing
 
