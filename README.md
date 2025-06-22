@@ -1,4 +1,4 @@
-# StudyImprove
+# ProjectGhuraba
 
 An e-commerce style project is the goal where people can sign up to the academy. 
 The goal is to educate Muslims back in to the best minds of the world like the golden age by encouraging work, intelligence, and strong mental health. Once again being the leading people of the world inshaAllah.
