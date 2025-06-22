@@ -1,0 +1,184 @@
+/* Bismillahi Rahmani Raheem */
+
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fredericka+the+Great&family=Inter:wght@200;300;400;500&family=Merienda:wght@700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500;700;900&family=RocknRoll+One&display=swap");
+
+/* Variables */
+:root {
+  --color: #10162f;
+  --bgColor: #fff0e5;
+  --white: white;
+  --btncolor: #3a10e5;
+  --inter: "Inter", sans-serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--inter);
+  color: var(--color);
+  background-color: var(--bgColor);
+  overflow-x: hidden;
+}
+
+/* Header & Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+              rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "RocknRoll One", sans-serif;
+}
+.logo span { font-weight: 800; }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 300px;
+  height: 100vh;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: right 0.3s ease-out;
+  z-index: 1001;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.cancel {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+ul a {
+  display: block;
+  padding: 12px 0;
+  color: var(--color);
+  border-bottom: 1px solid #eee;
+}
+ul a:hover { color: var(--btncolor); }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color);
+  border-radius: 3px;
+}
+
+/* Hero Section */
+#hero-section {
+  padding-bottom: 20px;
+  position: relative;
+}
+.content {
+  padding: 20px;
+  text-align: center;
+}
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.content span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.img {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.img img {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 23, 0.1) -5px 5px, rgba(0, 0, 23, 0.05) -10px 10px;
+}
+
+.pattern {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/* Mobile Menu Active State */
+@media (max-width: 1023px) {
+  body.menu-open {
+    overflow: hidden;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .menu, .cancel { display: none; }
+  
+  nav {
+    position: static;
+    width: auto;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  ul a {
+    padding: 0;
+    border-bottom: none;
+  }
+  
+  .nav-top { display: none; }
+}
+
+/* Star Ratings */
+.rated { color: gold; }
+.norate { color: #ccc; }
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--bgColor);
+}
